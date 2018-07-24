@@ -4,8 +4,6 @@
 	<meta name="descrition" content="{{ .Summary }}">
     <meta name = "viewport" content = "user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
 	{{ $main := resources.Get "sass/main.scss" | resources.ToCSS "style/main.css" }}
-	{{ $test := resources.Get "scripts/global.js" | resources.Minify "test/script.js" }}
-	<script src="{{ $test.Permalink }}"></script>
 	{{ if .Site.IsServer }}
 		<link rel="stylesheet" href="{{ $main.Permalink }}">
 	{{ else }}
