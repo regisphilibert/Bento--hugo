@@ -1,0 +1,11 @@
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+{{ $string := (printf "var cloudinary = '%v'; var weather_location = '%v';" (default 0 (.Param "cloudinary")) (default 0 (.Param "weather_location")) ) }}
+
+{{ $filePath := printf "vars.%x.scss" (.Param "weather_location") }}
+{{ $vars := $string | resources.FromString $filePath }}
+
+<script type="text/javascript">{{ $vars.Content | safeJS }}</script>
+
+{{ $mainJS := resources.Get "scripts/global.js" | minify | fingerprint }}
+<script type="text/javascript" src="{{ $mainJS.Permalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>

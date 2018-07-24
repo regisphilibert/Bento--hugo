@@ -1,0 +1,13 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "My New Hugo Site"
+
+metaDataFormat: yaml
+
+theme: Bento
+
+params:
+  cloudinary: https://cloudinary.whatever.bro
+  weather_location: "Montreal, CA"
+  style:
+    cDark: "#d2e2b1"
