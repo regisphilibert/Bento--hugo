@@ -8,7 +8,7 @@ sections:
   path: content
   label: Posts - EN
   create: all
-  match: "!posts/**/*.fr.md, posts/**/*.md"
+  match: "!{posts/**/*.fr.md}, posts/**/*.md"
   templates:
     - test
 - type: directory
