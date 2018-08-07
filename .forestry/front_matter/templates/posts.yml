@@ -1,0 +1,11 @@
+---
+label: Posts
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: desc
+  label: desc
