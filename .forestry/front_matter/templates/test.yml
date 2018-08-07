@@ -9,3 +9,5 @@ fields:
 - type: textarea
   name: desc
   label: desc
+pages:
+- content/fr/amelie.md
