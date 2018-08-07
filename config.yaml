@@ -14,8 +14,10 @@ params:
 
 languages:
   en:
+    contentDir: content/en
     weight: 1
   fr:
+    contentDir: content/fr
     weight: 2
 
 menu:
