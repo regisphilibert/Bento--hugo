@@ -16,10 +16,18 @@ sections:
   match: "**/*"
 - type: directory
   path: content
-  label: Posts
+  label: PostsEN
   hidden: true
   create: all
-  match: "{en,fr}/posts/**/*"
+  match: "en/posts/**/*"
+  templates:
+    - test
+- type: directory
+  path: content
+  label: PostsFR
+  hidden: true
+  create: all
+  match: "fr/posts/**/*"
   templates:
     - test
 upload_dir: static/uploads
