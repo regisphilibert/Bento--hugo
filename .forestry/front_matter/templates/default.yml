@@ -6,5 +6,3 @@ fields:
 - type: text
   name: title
   label: title
-pages:
-- content/en/posts/bonjour-monde.md
