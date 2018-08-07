@@ -317,6 +317,12 @@ ul.ben-MainNav, ul.ben-MainNav__sub {
   .ben-MainNav__item .ben-MainNav__item {
     color: black; }
 
+.ben-Lang {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-weight: bold; }
+
 body .ben-Well {
   background-color: var(--cDark); }
 
