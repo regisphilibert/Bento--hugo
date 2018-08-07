@@ -8,3 +8,4 @@ fields:
   label: title
 pages:
 - content/contact.fr.md
+- content/posts/bonjour-monde.md
