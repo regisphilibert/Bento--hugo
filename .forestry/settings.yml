@@ -16,6 +16,7 @@ sections:
   match: "**/*"
 - type: directory
   path: content
+  label: Posts
   hidden: true
   create: all
   match: "**/posts/**/*"
