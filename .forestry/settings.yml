@@ -8,16 +8,16 @@ sections:
   path: content
   label: Posts - EN
   create: all
-  match: "posts/**/!(*.fr).md"
+  match: posts/**/!{*.fr}.md
   templates:
-    - test
+  - test
 - type: directory
   path: content
   label: Posts - FR
   create: all
-  match: "posts/**/*.fr.md"
+  match: posts/**/*.fr.md
   templates:
-    - test
+  - test
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
