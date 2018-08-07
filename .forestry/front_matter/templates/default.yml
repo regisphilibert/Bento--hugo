@@ -6,3 +6,5 @@ fields:
 - type: text
   name: title
   label: title
+pages:
+- content/fr/posts-hello-world-md.md
