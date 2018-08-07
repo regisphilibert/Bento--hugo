@@ -7,5 +7,6 @@ fields:
   name: title
   label: title
 pages:
+- content/posts/blogue.md
 - content/contact.fr.md
 - content/posts/hello-world.fr.md
