@@ -15,18 +15,18 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/en
+  path: content/en/posts
   label: PostsEN
   create: all
-  match: posts/**/*
+  match: "**/*"
   hidden: true
   templates:
   - test
 - type: directory
-  path: content/fr
+  path: content/fr/posts
   label: PostsFR
   create: all
-  match: posts/**/*
+  match: "**/*"
   hidden: true
   templates:
   - test
