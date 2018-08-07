@@ -12,6 +12,11 @@ params:
   style:
     cDark: "yellow"
 
+languages:
+  en:
+    weight: 1
+  fr:
+    weight: 2
 
 menu:
   main:
