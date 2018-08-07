@@ -1,6 +1,6 @@
 baseURL: "http://example.org/"
 languageCode: "en-us"
-title: "My New Hugo Site"
+title: "This is Bento"
 
 metaDataFormat: yaml
 
@@ -10,4 +10,41 @@ params:
   cloudinary: https://cloudinary.whatever.bro
   weather_location: "Montreal, CA"
   style:
-    cDark: "#d2e2b1"
+    cDark: "yellow"
+
+
+menu:
+  main:
+    - identifier: above
+      name: Above Water 🏝️
+      url: "#"
+    - name: Rowboat 🚣‍♂️
+      parent: above
+      weight: 1
+    - name: Seaboat ⛵
+      parent: above
+      weight: 2
+    - identifier: ship
+      name: Cruise Ship 🛳️
+      parent: above
+      weight: 3
+    - name: Anchor ⚓
+      parent: ship
+    - name: Bikini 👙
+      parent: ship
+    - identifier: under
+      name: Under water 🐙
+    - name: Seashell 🐚
+      weight: 2
+      parent: under
+    - name: Squid 🦑
+      parent: under
+    - name: Tropical Fish 🐠
+      parent: under
+      weight: 1
+    - identifier: poseidon
+      name: Poseidon 🧜
+      weight: 4
+      parent: under
+    - name: Trident 🔱
+      parent: poseidon

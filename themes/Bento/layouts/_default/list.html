@@ -1,0 +1,10 @@
+{{ define "main" }}
+	<div class="ben-container">
+		<h2>{{ .Title }}</h2>
+		{{ range .Pages }}
+			<div class="ben-Well">
+				<a href="{{ .Permalink }}">{{ .Title }}</a>
+			</div>
+		{{ end }}
+	</div>
+{{ end }}

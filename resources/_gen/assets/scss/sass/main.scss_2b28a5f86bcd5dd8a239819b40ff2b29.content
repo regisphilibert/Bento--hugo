@@ -892,7 +892,5 @@ body .ben-Well {
   background-color: #ccc; }
 
 header {
-  background-color: red;
+  background-color: var(--cDark);
   padding: 1em; }
-  header .ben-Logo {
-    color: white; }

@@ -1,0 +1,12 @@
+<div class="ben-MainNav__item {{ with .HasChildren }}phi-MainNav__item--has-children{{ end }}">
+	<a href="{{ .URL }}">
+		{{ .Name }}
+	</a>
+	{{ if .HasChildren }}
+		<div class="ben-MainNav__sub">
+		{{ range .Children }}
+			{{ partial "nav-item" . }}
+		{{ end }}
+		</div>
+	{{ end }}
+</div>

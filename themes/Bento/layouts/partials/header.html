@@ -1,5 +1,13 @@
 <header>
 	<div class="ben-container">
 		<a href="/" class="ben-Logo"><span>🍱</span> <span>Bento</span> <small>(the Hugo edition)</small></a>
+		{{ with .Site.Menus.main }}
+			{{ $currentPage := $ }}
+			<div class="ben-MainNav">
+				{{ range . }}
+					{{ partial "nav-item" . }}
+				{{ end }}
+			</div>
+		{{ end }}
 	</div>
 </header>
