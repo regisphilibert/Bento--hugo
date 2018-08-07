@@ -1,7 +1,6 @@
 ---
 title: "That Lorem Post"
-date: 2018-08-07T11:23:51-04:00
-draft: true
+date: 2018-07-07T11:23:51-04:00
 ---
 
 In 🇬🇧, ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
