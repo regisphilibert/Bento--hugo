@@ -19,9 +19,9 @@ sections:
   label: Posts
   hidden: true
   create: all
-  match: "**/posts/**/*"
+  match: "{en,fr}/posts/**/*"
   templates:
-    - posts
+    - test
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
