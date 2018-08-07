@@ -9,6 +9,8 @@ sections:
   label: French
   create: all
   match: "**/*"
+  templates:
+  - test
 - type: directory
   path: content/en
   label: English
