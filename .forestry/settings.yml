@@ -8,7 +8,7 @@ sections:
   path: content/en
   label: English
   create: all
-  match: "**/*"
+  match: "*"
 - type: directory
   path: content
   label: Pages
