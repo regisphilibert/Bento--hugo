@@ -7,4 +7,4 @@ fields:
   name: title
   label: title
 pages:
-- content/fr/posts/ce-post-lorem.md
+- content/fr/posts/that-lorem-post.fr.md
