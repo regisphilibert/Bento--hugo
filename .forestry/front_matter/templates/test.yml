@@ -1,0 +1,11 @@
+---
+label: Default
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: title
+pages:
+- content/posts/_index.fr.md
+- content/posts/hello-world.fr.md

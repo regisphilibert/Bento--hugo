@@ -6,9 +6,18 @@ webhook_url:
 sections:
 - type: directory
   path: content
-  label: Pages
+  label: Posts - EN
   create: all
-  match: "*"
+  match: posts/**/!{*.fr}.md
+  templates:
+  - test
+- type: directory
+  path: content
+  label: Posts - FR
+  create: all
+  match: posts/**/*.fr.md
+  templates:
+  - test
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
