@@ -2,9 +2,7 @@
 	<div class="ben-container">
 		<h2>{{ .Title }}</h2>
 		{{ range .Pages }}
-			<div class="ben-Well" style="margin-bottom:1rem;">
-				<a href="{{ .Permalink }}">{{ .Title }}| {{ .Date.Format "January, 02 2006" }}</a>
-			</div>
+			{{ .Render "item" }}
 		{{ end }}
 	</div>
 {{ end }}

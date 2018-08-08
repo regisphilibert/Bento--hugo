@@ -12,6 +12,10 @@ params:
   style:
     cDark: "yellow"
 
+related:
+  indices:
+    - name: tags
+      weight: 1
 
 menu:
   main:

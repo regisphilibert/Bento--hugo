@@ -1,0 +1,13 @@
+{{ define "main" }}
+	<div class="ben-container">
+		<div class="ben-wrap">
+			<div class="ben-main">
+				<h2>{{ .Title }}</h2>
+				{{ .Content }}
+			</div>
+			<div class="ben-sidebar">
+				{{ partial "related" . }}
+			</div>
+		</div>
+	</div>
+{{ end }}

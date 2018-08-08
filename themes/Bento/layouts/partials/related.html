@@ -1,0 +1,4 @@
+<h3>Related</h3>
+{{ range .Site.RegularPages.Related . | first 5 }}
+	{{ .Render "item" }}
+{{ end }}
