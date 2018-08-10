@@ -9,3 +9,4 @@ fields:
 pages:
 - content/posts/_index.fr.md
 - content/posts/hello-world.fr.md
+- data/skills/thing.md
