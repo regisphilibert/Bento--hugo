@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/fr/posts/</loc>
+    <lastmod>2018-08-07T16:57:57+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/posts/hello-world/</loc>
+    <lastmod>2018-08-07T16:55:49+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/posts/hello-world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/posts/hello-world/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/contact/</loc>
+    <lastmod>2018-08-07T16:36:35+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/about/</loc>
+    <lastmod>2018-07-19T14:43:22-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/posts/that-lorem-post/</loc>
+    <lastmod>2018-07-07T11:23:51-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/posts/that-lorem-post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/posts/that-lorem-post/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/tags/drole/</loc>
+    <lastmod>2018-08-07T16:55:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/tags/lorem/</loc>
+    <lastmod>2018-07-07T11:23:51-04:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/tags/lorem/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/tags/lorem/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/tags/monde/</loc>
+    <lastmod>2018-08-07T16:55:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/tags/</loc>
+    <lastmod>2018-08-07T16:55:49+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/</loc>
+    <lastmod>2018-08-07T16:55:49+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/"
+                />
+  </url>
+  
+</urlset>

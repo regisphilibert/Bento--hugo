@@ -18,6 +18,11 @@ sections:
   match: posts/**/*.fr.md
   templates:
   - test
+- type: directory
+  path: data/skills
+  label: Skills
+  create: all
+  match: "*.yaml"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
