@@ -9,18 +9,15 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-- type: directory
-  path: content/uploads
-  label: Uploads
-  create: all
-  match: "**/*"
+  templates:
+  - post
 - type: directory
   path: content
-  label: Posts - FR
+  label: Pages
   create: all
-  match: "*"
+  match: "*.md"
   templates:
-  - test
+  - default
 upload_dir: content/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
