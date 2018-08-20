@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogue on This is Bento</title>
+    <link>http://example.org/fr/posts.html</link>
+    <description>Recent content in Blogue on This is Bento</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Aug 2018 16:57:57 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/fr/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bonjour Monde</title>
+      <link>http://example.org/fr/posts/hello-world.html</link>
+      <pubDate>Tue, 07 Aug 2018 16:55:49 +0000</pubDate>
+      
+      <guid>http://example.org/fr/posts/hello-world.html</guid>
+      <description>Un articles qui parle de dire bonjour</description>
+    </item>
+    
+    <item>
+      <title>Un post lorem</title>
+      <link>http://example.org/fr/posts/that-lorem-post.html</link>
+      <pubDate>Sat, 07 Jul 2018 11:23:51 -0400</pubDate>
+      
+      <guid>http://example.org/fr/posts/that-lorem-post.html</guid>
+      <description>En 🇫🇷, ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</description>
+    </item>
+    
+  </channel>
+</rss>

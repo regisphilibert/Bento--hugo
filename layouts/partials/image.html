@@ -1,0 +1,27 @@
+{{- $medias := .page.Site.GetPage "/uploads" -}}
+{{- $page := .page -}}
+{{- $command := default nil .command }}
+{{- $options := default "1000x" .options }}
+{{- $s := newScratch -}}
+{{- with $medias.Resources.GetMatch (strings.TrimPrefix "/uploads/" .image ) -}}
+	{{- $image := . -}}
+	{{- with $command -}}
+		{{- if eq $command "Fit" -}}
+		{{- $s.Set "image" ($image.Fit $options) -}}
+		{{- else if eq $command "Resize" -}}
+		{{- $s.Set "image" ($image.Resize $options) -}}
+		{{- else if eq $command "Fill" -}}
+		{{- $s.Set "image" ($image.Fill $options) -}}
+		{{- else -}}
+		{{- errorf "Invalid image processing command: Must be one of Fit, Fill or Resize." -}}
+		{{- end }}
+		{{- $s.Set "output" ($s.Get "image") -}}
+	{{- else -}}
+		{{- $s.Set "output" $image -}}
+	{{- end -}}
+	{{- if $page.Site.IsServer -}}
+		{{- ($s.Get "output").Permalink -}}
+	{{- else -}}
+		{{- ($s.Get "output" | fingerprint ).Permalink -}}
+	{{- end -}}
+{{- end -}}

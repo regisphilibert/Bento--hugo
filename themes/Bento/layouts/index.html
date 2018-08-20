@@ -7,4 +7,17 @@
 			{{readFile "README.md" | markdownify}}
 		{{ end }}
 	</div>
+	{{ with .Params.blocks }}
+		<hr>
+		<div class="ben-Blocks">
+		{{ range . }}
+			<div class="ben-Block">
+				<h4>{{ .title }}</h4>
+				<div>
+					{{ .content | markdownify }}
+				</div>
+			</div>
+		{{ end }}
+		</div>
+	{{ end }}
 {{ end }}

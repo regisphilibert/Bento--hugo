@@ -2,7 +2,7 @@
 title: Blog
 menu:
   main: 
-    name: 📚 Blog
+    name: Blog 📚
     weight: 1
 ---
 

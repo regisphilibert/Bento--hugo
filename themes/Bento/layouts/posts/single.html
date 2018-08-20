@@ -2,6 +2,11 @@
 	<div class="ben-container">
 		<div class="ben-wrap">
 			<div class="ben-main">
+				{{ with .Params.image }}
+					<a href="{{ partial "image" (dict "page" $ "image" .) }}" style="display:block" target="_blank">
+						<img style="max-width:100%;" src="{{ partial "image" (dict "page" $ "image" . "command" "Fill" "options" "900x270") }}" alt="">
+					</a>
+				{{ end }}
 				<h2>{{ .Title }}</h2>
 				{{ .Content }}
 			</div>
