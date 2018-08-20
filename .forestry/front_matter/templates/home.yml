@@ -1,0 +1,13 @@
+---
+label: Home
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: blocks
+  name: sections
+  label: Section
+  config:
+    max: '5'
