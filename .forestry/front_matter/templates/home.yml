@@ -11,3 +11,5 @@ fields:
   label: Section
   config:
     max: '5'
+  template_types:
+  - section
