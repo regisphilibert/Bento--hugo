@@ -3,8 +3,9 @@ title: Bonjour Monde
 date: 2018-08-07 16:55:49 +0000
 image: world.jpg
 tags:
-  - Monde
-  - Géographie
+- Monde
+- Géographie
+
 ---
 Un articles qui parle de dire bonjour au monde.
 

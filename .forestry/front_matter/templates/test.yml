@@ -8,4 +8,3 @@ fields:
   label: title
 pages:
 - content/posts/_index.fr.md
-- content/posts/hello-world.fr.md
