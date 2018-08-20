@@ -1,0 +1,6 @@
+<blockquote>
+	{{ .Inner }}
+	{{ with .Get "author" }}
+		<cite>{{ . }}</cite>
+	{{ end }}
+</blockquote>

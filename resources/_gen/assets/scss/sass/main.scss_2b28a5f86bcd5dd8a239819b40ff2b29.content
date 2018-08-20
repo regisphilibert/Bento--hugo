@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*********************************************
             RESPONSIVE HELPERS AND RULES
 *********************************************/
@@ -335,6 +336,28 @@ body .ben-Well {
 
 .ben-main {
   grid-column: span 2; }
+
+blockquote {
+  font-size: 2rem;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  padding-left: 2em; }
+  blockquote p {
+    margin-top: 0; }
+  blockquote cite {
+    display: block;
+    text-align: right;
+    font-style: italic;
+    font-size: 0.8em; }
+  blockquote:before {
+    content: "«";
+    position: absolute;
+    display: inline-block;
+    font-size: 1.5em;
+    top: 0;
+    left: 1rem; }
 
 /*!
  * Bootstrap v3.3.1 (http://getbootstrap.com)
