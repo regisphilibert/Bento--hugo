@@ -3,10 +3,27 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
+sections:
+- type: directory
+  path: content/posts
+  label: Posts
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/uploads
+  label: Uploads
+  create: all
+  match: "**/*"
+- type: directory
+  path: content
+  label: Posts - FR
+  create: all
+  match: "*"
+  templates:
+  - test
 upload_dir: content/uploads
 public_path: "/uploads"
-front_matter_path: ''
-use_front_matter_path: true
 front_matter_path: "/uploads"
+use_front_matter_path: true
 file_template: ":filename:"
 version: '0.46'
