@@ -6,6 +6,13 @@ fields:
 - type: text
   name: title
   label: title
+- type: textarea
+  name: text
+  label: Text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: color
   name: background_color
   config:
@@ -14,10 +21,3 @@ fields:
 - type: file
   name: background_image
   label: Background Image
-- type: textarea
-  name: text
-  label: Text
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
