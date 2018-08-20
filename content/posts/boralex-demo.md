@@ -8,3 +8,4 @@ image: "/uploads/02760_redscarf_2560x1440.jpg"
 draft: true
 
 ---
+Something here right?
