@@ -326,6 +326,20 @@ ul.ben-MainNav, ul.ben-MainNav__sub {
   right: 1rem;
   font-weight: bold; }
 
+.ben-Section {
+  padding: 3rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  font-size: 2rem; }
+  .ben-Section[style*='background-image'] {
+    color: white;
+    text-shadow: 1px 1px black; }
+  .ben-Section h4 {
+    font-size: 1.5em;
+    margin: 0;
+    text-transform: uppercase; }
+
 body .ben-Well {
   background-color: var(--cDark); }
 

@@ -7,17 +7,18 @@
 			{{readFile "README.md" | markdownify}}
 		{{ end }}
 	</div>
-	{{ with .Params.blocks }}
-		<hr>
-		<div class="ben-Blocks">
+	{{ with .Params.sections }}
 		{{ range . }}
-			<div class="ben-Block">
+		<div class="ben-Section" 
+			style="{{ with .background_color }}background-color:{{ . }};{{ end }}{{ with .background_image }}background-image:url({{ partial "image" (dict "page" $ "image" . ) }}){{ end }};"
+		>
+			<div class="ben-container">
 				<h4>{{ .title }}</h4>
 				<div>
-					{{ .content | markdownify }}
+					{{ .text | markdownify }}
 				</div>
 			</div>
-		{{ end }}
 		</div>
-	{{ end }}
+		{{ end }}
+	{{ end}}
 {{ end }}
