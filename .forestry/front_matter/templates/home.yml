@@ -13,3 +13,5 @@ fields:
     max: '5'
   template_types:
   - section
+pages:
+- content/_index.md
