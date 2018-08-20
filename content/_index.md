@@ -2,13 +2,6 @@
 title: Home
 sections:
 - template: section
-  title: Our Skills
-  text: |-
-    This is what we do!
-
-    Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.
-  background_color: "#B8E986"
-- template: section
   title: Where we are
   text: Beautiful Monteal! Cum sociis natoque penatibus et magnis dis parturient montes,
     nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Sed
