@@ -6,8 +6,6 @@ metaDataFormat: yaml
 
 theme: Bento
 
-uglyURLs: true
-
 params:
   cloudinary: https://cloudinary.whatever.bro
   weather_location: "Montreal, CA"
