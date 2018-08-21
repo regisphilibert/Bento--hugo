@@ -16,4 +16,5 @@ fields:
   name: image
   label: Image
 pages:
+- content/posts/chez-les-robidaires.md
 - content/posts/hello-world.fr.md
