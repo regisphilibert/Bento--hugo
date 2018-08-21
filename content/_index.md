@@ -17,9 +17,11 @@ sections:
     leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
     Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida
     at eget metus. Donec sed odio dui.
-  background_color: "#A3C294"
+  background_color: 
 
 ---
 #### Welcome
+
+This is nice.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatum accusantium praesentium corrupti placeat blanditiis eveniet, totam voluptatem repudiandae maxime deleniti earum alias, a quod vitae eos vel omnis nesciunt.
