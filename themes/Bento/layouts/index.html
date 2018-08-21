@@ -1,7 +1,9 @@
 {{ define "main" }}
 	<div class="ben-container">
 		{{ with .Content }}
-			{{ . }}
+			<div class="ben-Section">
+				{{ . }}
+			</div>
 		{{ else }}
 			<h3>From README.md</h3>
 			{{readFile "README.md" | markdownify}}
