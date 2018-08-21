@@ -17,7 +17,7 @@ sections:
     leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
     Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida
     at eget metus. Donec sed odio dui.
-  background_color: "#A3C294"
+  background_color: 
 
 ---
 ## Welcome
