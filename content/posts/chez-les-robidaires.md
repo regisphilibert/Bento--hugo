@@ -8,3 +8,5 @@ image: "/uploads/IMG_7715.jpg"
 
 ---
 Bonjour chez moi.
+
+{{% quote author="Magalie" %}}Lavez-vous les mains.{{% /quote %}}
