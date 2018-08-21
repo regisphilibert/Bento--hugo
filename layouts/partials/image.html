@@ -22,6 +22,6 @@
 	{{- if $page.Site.IsServer -}}
 		{{- ($s.Get "output").Permalink -}}
 	{{- else -}}
-		{{- ($s.Get "output" | fingerprint ).Permalink -}}
+		{{- ($s.Get "output").Permalink -}}
 	{{- end -}}
 {{- end -}}
