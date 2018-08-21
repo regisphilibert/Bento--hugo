@@ -5,6 +5,10 @@ sections:
   title: Youpi
   text: Bonjour Messieurs
   background_color: "#722525"
+- template: section
+  title: Au revoir
+  text: Bonsoir Adieu
+  background_image: "/uploads/la-fi-anaheim-disney-photos-20170719-019.jpg"
 
 ---
 #### Bienvenu
