@@ -14,5 +14,5 @@ fields:
   template_types:
   - section
 pages:
-- content/_index.fr.md
 - content/_index.md
+- content/_index.fr.md
