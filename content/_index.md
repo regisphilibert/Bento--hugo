@@ -10,6 +10,10 @@ sections:
     venenatis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes,
     nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur.
   background_image: "/uploads/montreal.jpg"
+- template: section
+  title: Contact
+  text: Contactez-nous
+  background_image: "/uploads/world.jpg"
 
 ---
 #### Welcome
