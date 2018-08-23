@@ -16,4 +16,5 @@ fields:
   name: image
   label: Image
 pages:
+- content/posts/chez-boralex.md
 - content/posts/hello-world.fr.md
